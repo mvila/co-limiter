@@ -1,0 +1,16 @@
+{
+  "name": "co-limiter",
+  "version": "1.0.0",
+  "description": "Limits how many generators can be ran at the same time",
+  "author": "Manuel Vila <mvila@3base.com>",
+  "main": "index.js",
+  "repository": "git://github.com/mvila/co-limiter",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^3.0.5",
+    "co-priority-queue": "^1.0.0"
+  },
+  "devDependencies": {
+    "co-wait": "0.0.0"
+  }
+}

@@ -1,4 +1,4 @@
-# co-limiter
+# co-limiter [![Build Status](https://travis-ci.org/kinda/co-limiter.svg?branch=master)](https://travis-ci.org/kinda/co-limiter)
 
 Limits how many generators can be ran at the same time.
 

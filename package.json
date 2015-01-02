@@ -1,6 +1,6 @@
 {
   "name": "co-limiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Limits how many generators can be ran at the same time",
   "author": "Manuel Vila <mvila@3base.com>",
   "main": "index.js",

@@ -14,8 +14,8 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "co": "^3.0.5",
-    "co-priority-queue": "^1.0.0"
+    "co": "^4.1.0",
+    "co-priority-queue": "^1.0.1"
   },
   "devDependencies": {
     "co-wait": "0.0.0"

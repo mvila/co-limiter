@@ -14,7 +14,9 @@ var limiter = function(concurrency) {
         yieldable = yield queue.next();
         yield yieldable();
       }
-    })();
+    }).catch(function(err) {
+      console.error(err.stack);
+    });
   }
 
   var limit = function(generator, priority) {

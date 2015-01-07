@@ -13,5 +13,7 @@ var job = function *() {
 for (var i = 0; i < 10; i++) {
   co(function *() {
     yield limit(job());
-  })();
+  }).catch(function(err) {
+    console.error(err.stack);
+  });
 }
